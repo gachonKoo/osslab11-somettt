@@ -1,10 +1,9 @@
 import math
 
-def calculate_square_area(side):
-    return side * side
+def pythagorass(a,b):
+    c = math.sqrt(a**2 + b**2)
+    return c
 
-def calculate_rectangle_area(length, width):
-    return length * width
-
-def calculate_circle_area(radius):
-    return math.pi * radius * radius
+def circle(r):
+    area = math.pi * r**2
+    return area
